@@ -14,12 +14,12 @@
 config-version: 1.0
 
 # Debug Mode - Prints extra information in console (can be really spammy)
-debug: false
+debug: true
 
 # Enable/Disable the plugin
 # By default the plugin is disabled to avoid errors of invalid bot token
 # When finished configuring the plugin you may set this to 'true'
-enabled: false
+enabled: true
 
 # Bot Configuration
 bot:
@@ -90,7 +90,7 @@ embed:
 webhook:
   # Enable/Disable this module
   # If this is enabled, anything related to 'bot configuration' will be ignored and this will be used instead!
-  enabled: false
+  enabled: true
   # WebHook URL
   url: ''
   # Name of the WebHook
